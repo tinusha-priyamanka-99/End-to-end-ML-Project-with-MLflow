@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import logging
 
-logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
+logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 project_name = "mlproject"
 
@@ -25,6 +25,7 @@ list_of_files = [
     "app.py",
     "Dockerfile",
     "requirements.txt",
+    "main.py",
     "setup.py",
     "research/trials.ipynb",
     "templates/index.html"
